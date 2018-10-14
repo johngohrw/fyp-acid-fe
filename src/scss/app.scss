@@ -1,0 +1,59 @@
+@import 'variables';
+@import 'mixins';
+@import 'font-styles';
+
+body {
+    background-color: black;
+
+    #root {
+        background-color: $color-bg-dark;
+    }
+}
+
+.trippybg {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    z-index: 0;
+
+    height: inherit !important;
+    width: 100% !important;
+}
+
+.main-container {
+    @include flex-col;
+    @include padding-xl;
+
+    align-items: center;
+    height: 100vh;
+    background-color: $color-bg-dark;
+}
+
+.content {
+    @include flex-col;
+    
+    z-index: 2;
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    max-width: 780px;
+    border-radius: 5px;
+    box-shadow: 3px 3px $color-magenta;
+}
+
+.inner-content {
+    @include flex-col;
+    
+    margin-left: 12%;
+    margin-right: 12%;
+    flex-grow: 1;
+
+}
+
+.button-row {
+    @include flex-row;
+    @include margin-xl;
+
+    justify-content: space-evenly;
+}
+
