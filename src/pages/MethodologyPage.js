@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../css/pages/welcomepage.css';
+import '../css/pages/methodologypage.css';
 
 
-export default class WelcomePage extends Component {
+export default class MethodologyPage extends Component {
 
     render() {
         return (
-            <div className="welcome-page__container">
+            <div className="methodology-page__container">
                 <div className="inner-content">
-                    <h4>Welcome to ACID</h4>
+                    <h4>Methodology</h4>
                     <p>
                         ACID is an image classifier that is able to discriminate 
                         between compound and non-compound images from published 
@@ -26,9 +26,6 @@ export default class WelcomePage extends Component {
                     </p>
                 </div>
                 <div className="button-row">
-                    {/* <Link to="/template-test">
-                        <button className="btn btn-info">Test</button>   
-                    </Link> */}
                     <Link to="/fyp-acid/upload">
                         <button className="btn btn-success">Next</button>
                     </Link>
