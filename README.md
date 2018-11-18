@@ -1,5 +1,6 @@
 # fe-dev: Front-end Development Environment
 [Live Prototype Website](https://johngohrw.github.io/fyp-acid/) (requires web-server running on background)
+This is only the front-end component for a bigger project. You can navigate [here](https://github.com/johngohrw/fyp-acid) if you wish to visit the parent project's page.
 
 ## About this environment
 This folder consists of the developmental source files for FYP-ACID's (Automatic compound Image Detection) front-end client website. The website is developed using the Node.js engine and npm as the package manager and script runner. This website is coded heavily with the React.js framework, with a mixture of vanilla JavaScript. Stylesheets are manually written, but made easy with the help of CSS preprocessor engines such as SCSS. The uploading process is achieved via RESTful communication methods between the web-client and the back-end server.
