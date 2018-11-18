@@ -1,5 +1,6 @@
 # fe-dev: Front-end Development Environment
 [Live Prototype Website](https://johngohrw.github.io/fyp-acid/) (requires web-server running on background)
+
 This is only the front-end component for a bigger project. You can navigate [here](https://github.com/johngohrw/fyp-acid) if you wish to visit the parent project's page.
 
 ## About this environment
